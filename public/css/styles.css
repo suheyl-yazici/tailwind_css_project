@@ -564,10 +564,6 @@ a {
   bottom: 2rem;
 }
 
-.bottom-2 {
-  bottom: 0.5rem;
-}
-
 .-bottom-2 {
   bottom: -0.5rem;
 }
@@ -583,10 +579,6 @@ a {
 
 .mb-8 {
   margin-bottom: 2rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .mt-2 {
@@ -717,12 +709,6 @@ a {
   margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-y-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-}
-
 .divide-x > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-x-reverse: 0;
   border-right-width: calc(1px * var(--tw-divide-x-reverse));
@@ -780,16 +766,6 @@ a {
 .bg-gega-red {
   --tw-bg-opacity: 1;
   background-color: rgb(188 26 69 / var(--tw-bg-opacity));
-}
-
-.bg-rose-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(244 63 94 / var(--tw-bg-opacity));
-}
-
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
@@ -872,12 +848,12 @@ a {
   padding-left: 0.5rem;
 }
 
-.pl-8 {
-  padding-left: 2rem;
-}
-
 .pb-16 {
   padding-bottom: 4rem;
+}
+
+.pl-8 {
+  padding-left: 2rem;
 }
 
 .text-center {
